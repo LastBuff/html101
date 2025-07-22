@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        ร้านค้าขายของที่ระลึก สาขาวิชาวิทยาการคอมพิวเตอร์
+
+        Admin สำหรับจัดเตรียมสินค้า
+
+        <form action="" method="get" class="space-y-6">
+            <div><h1 class="text-xl font"></h1></div>
+
+        <h1>เสื้อ</h1>
+        <label for="productsize">ขนาด</label>
+
+        <!--ขนาด xs, s, m, l, xl, xxl, 3xl-->
+        <select name="production" id="">
+            <option value="">--กรุณาเลือกขนาด--</option>
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m" selected>M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+            <option value="3xl">3XL</option>
+        </select>
+
+        <!--สี ขาว ดำ น้ำเงิน เทา-->
+        <label for="prdcolor">สี</label>
+        <input type="radio" name="prdcolor" value="white">ขาว
+        <input type="radio" name="prdcolor" value="grey">เทา
+        <input type="radio" name="prdcolor" value="blue">น้ำเงิน
+        <input type="radio" name="prdcolor" value="black">ดำ
+
+        ราคา
+        <input type="number" name="price" id="price" min="0" max="999999" step="10.00" value="0.00">
+        -กรอกจำนวนเงิน
+
+        จำนวนสินค้า
+        <input type="number" name="quantity" id="quantity">
+        
+        ชื่อรุ่น
+        <input type="text" name="modelname" id="modelname" placeholder="ชื่อรุ่น">
+
+        รายละเอียด
+        <textarea name="description" id="description" row="10" placeholder="รายละเอียด" maxlength="500"></textarea>
+
+        วันที่ขาย ตั้งแต่วันที่-สิ้นสุด
+        <input type="date" name="startdate" id="startdate">
+        <input type="date" name="enddate" id="enddate">
+        
+        รูปภาพสินค้า
+        <input type="file" name="productimage" id="productimage" accept="image/*">
+
+        <input type="submit" value="บันทึก">
+        <input type="reset" value="ล้างข้อมูล">
+
+        </form>
+        ลูกค้า สามารถเลือกซื้อสินค้าได้
+
+        แก้วน้ำ
+        กระเป๋าผ้า
+        ร่ม
+        หมวก
+
+        
+</body>
+</html>

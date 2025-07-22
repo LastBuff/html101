@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sams-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 120, 120);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header {
+    background-color: rgb(155, 87, 87);
+    color: rgb(4, 93, 170);
+    text-align: left;
+}
+nav
+
+.csmju-text {
+    font-size: 1.2em;
+    color: #333;
+    margin: 50px 0;
+}
+
+.cs-image{
+    width: 400px;
+    height: 350px;
+}
